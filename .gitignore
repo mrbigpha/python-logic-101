@@ -1,0 +1,31 @@
+# --- Python ---
+# ไฟล์ที่เกิดจากการคอมไพล์ Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (โฟลเดอร์เก็บ Library)
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# --- Operating System ---
+# ไฟล์ขยะของ Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ไฟล์ขยะของ macOS
+.DS_Store
+
+# --- Editors/IDEs ---
+# ไฟล์ตั้งค่าของ VS Code
+.vscode/
+# ไฟล์ตั้งค่าของ PyCharm
+.idea/
+
+# --- ตรวจสอบคำตอบ ---
+# หากคุณไม่ต้องการให้เด็กส่งไฟล์สรุปผลการตรวจที่อาจเกิดขึ้นอัตโนมัติ
+*.log
