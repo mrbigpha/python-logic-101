@@ -56,6 +56,8 @@ all_tests = [
     ("ex10_get_sign", "get_sign", [((10,), "positive"), ((-5,), "negative"), ((0,), "zero"), ((0.1,), "positive"), ((-99,), "negative")]),
     ("ex11_is_leap_year", "is_leap_year", [((2000,), True), ((1900,), False), ((2024,), True), ((2023,), False), ((2100,), False)]),
     ("ex12_atm_withdrawal", "atm_withdrawal", [((2600,), "1000: 2, 500: 1, 100: 1"), ((1000,), "1000: 1, 500: 0, 100: 0"), ((255,), "Invalid"), ((700,), "1000: 0, 500: 1, 100: 2"), ((150,), "Invalid")]),
+    ("ex13_calculate_bmi", "calculate_bmi", [((50, 1.70), "Underweight"), ((65, 1.70), "Normal"), ((80, 1.70), "Overweight"), ((90, 1.60), "Obese"), ((70, 1.75), "Normal")]),
+    ("ex14_calculate_discount", "calculate_discount", [((1500,), 1350.0), ((1000,), 1000.0), ((500,), 500.0), ((2000,), 1800.0), ((1100,), 990.0)]),
 ]
 
 if __name__ == "__main__":
